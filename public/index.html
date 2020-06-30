@@ -1,0 +1,32 @@
+<!doctype html>
+  <html>
+   <head>
+     <title>Proxy-ZuKickstarter</title>
+   </head>
+   <body>
+     <div id="Cover"></div>
+     <div id="Description"></div>
+     <div id="Pledges"></div>
+     <script src="/lib/react.development.js"></script>
+     <script src="/lib/react-dom.development.js"></script>
+     <script src="http://localhost:3000/app.js"></script>
+     <!-- <script src="http://localhost:3009/app.js"></script> -->
+     <script src="http://localhost:3006/app.js"></script>
+     <!-- <script src="http://localhost:3003/app.js"></script> -->
+
+     <script>
+       ReactDom.render(
+         React.createElement(Cover),
+         document.getElementById('Cover')
+       );
+       ReactDom.render(
+         React.createElement(Description),
+         document.getElementById('Description')
+       );
+       ReactDom.render(
+         React.createElement(Cover),
+         document.getElementById('Pledges')
+       );
+     </script>
+    </body>
+  </html>
