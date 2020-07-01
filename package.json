@@ -1,0 +1,19 @@
+{
+  "name": "yarosz-proxy",
+  "version": "1.0.0",
+  "description": "FEC kickstarter proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zukickstarter/yarosz-proxy.git"
+  },
+  "author": "yarosz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zukickstarter/description-proxy/issues"
+  },
+  "homepage": "https://github.com/Zukickstarter/description-proxy#readme"
+}
