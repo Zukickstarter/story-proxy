@@ -1,0 +1,10 @@
+## Mac OSX ##
+.DS_Store
+
+## NPM ##
+node_modules/
+
+## Bundle ##
+public/bundle.js
+
+## API keys ##
