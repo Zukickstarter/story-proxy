@@ -1,2 +1,2 @@
-# description-proxy
-This is the proxy for the Campaign Description
+# yarosz-proxy
+This is Nic's proxy for the Campaign Description
