@@ -6,10 +6,9 @@
    <body>
      <h1>Hello from Proxy index.HTML!</h1>
      <div id="like_button_container"></div>
-     <div id="Cover"></div>
-     <div id="Description"></div>
-     <div id="Pledges"></div>
-
+     <div id="pledges"></div>
+     <div id="description"></div>
+     <div id="photos-react"></div>
      <!-- Load React. -->
      <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
      <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
@@ -17,24 +16,26 @@
 
      <!-- Load our React components: -->
      <script src="like_button.js"></script>
-     <!-- <script src="http://localhost:3000/app.js"></script> -->
-     <!-- <script src="http://localhost:3009/app.js"></script> -->
-     <!-- <script src="http://localhost:3006/app.js"></script> -->
-     <!-- <script src="http://localhost:3003/app.js"></script> -->
+     <!-- Photos -->
+     <script src="http://localhost:4984/bundle.js"></script>
+     <!-- Description -->
+     <script src="http://localhost:3006/bundle.js"></script>
+     <!-- Pledges -->
+     <script src="http://localhost:3003/bundle.js"></script>
 
      <script>
-       ReactDom.render(
-         React.createElement(Cover),
-         document.getElementById('Cover')
-       );
-       ReactDom.render(
-         React.createElement(Description),
-         document.getElementById('Description')
-       );
-       ReactDom.render(
-         React.createElement(Cover),
-         document.getElementById('Pledges')
-       );
+      //  ReactDom.render(
+      //    React.createElement(Photos),
+      //    document.getElementById('photos-react')
+      //  );
+      //  ReactDom.render(
+      //    React.createElement(Description),
+      //    document.getElementById('description')
+      //  );
+      //  ReactDom.render(
+      //    React.createElement(Pledges),
+      //    document.getElementById('pledges')
+      //  );
      </script>
     </body>
   </html>
